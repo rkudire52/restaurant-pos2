@@ -1,6 +1,9 @@
 // script.js
-
-// Define menu items and prices
+function displayMenu() {
+    console.log("Displaying menu items..."); // Add this line
+    // Rest of the code...
+    
+    // Define menu items and prices
 const menu = {
     "Food Menu": [
         { name: "Beef Nihari", price: 12.99 },
