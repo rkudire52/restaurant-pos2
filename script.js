@@ -1,5 +1,6 @@
 // script.js
 
+
 // Define menu items and prices
 const menu = {
     "Food Menu": [
@@ -30,6 +31,7 @@ const menu = {
 
 // Function to display menu items
 function displayMenu() {
+    console.log("Displaying menu items..."); 
     const menuSection = document.getElementById("menu");
 
     // Loop through each category in the menu
