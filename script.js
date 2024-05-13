@@ -32,7 +32,7 @@ const menu = {
 // Function to display menu items
 function displayMenu() {
     console.log("Displaying menu items..."); 
-    const menuSection = document.getElementById("menu");
+    const menuSection = document.getElementById("food-menu");
 
     // Loop through each category in the menu
     for (const category in menu) {
